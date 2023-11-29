@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+.main__calculadora{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+
+    &__container{
+        padding: 20px;
+        border: 1px solid #08bbff;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        gap: 8px;
+
+        h1{
+            color: #0971b5;
+        }
+
+        p{
+            text-align: center;
+        }
+
+        &__buttons{
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        span{
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+}
